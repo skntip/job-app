@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f7b42c, #fc575e, #85d8ce, #a6c1ee);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 6cm;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.view-job {
+    background-color: #6a8caf;
+    color: white;
+}
+
+.view-job:hover {
+    background-color: #58729a;
+    transform: scale(1.05);
+}
+
+.add-job {
+    background-color: #f76c6c;
+    color: white;
+}
+
+.add-job:hover {
+    background-color: #e35b5b;
+    transform: scale(1.05);
+}
+
+
